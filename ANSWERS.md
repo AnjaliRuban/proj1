@@ -1,5 +1,6 @@
 # Q0: Why are these two errors being thrown?
-
+  Migration Error: This error comes because some data structures that have been created haven't been added to the schema.rb file
+  Uninitialized Constant: Pokemon has not been imported or created so it's trying to run a function on something it doesn't have exist
 # Q1: How are the random Pokemon appearing? What is the common factor between all the possible Pokemon that appear? *
 
 # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
